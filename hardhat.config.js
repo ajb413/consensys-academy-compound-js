@@ -1,5 +1,4 @@
 require('@nomiclabs/hardhat-waffle');
-require('@nomiclabs/hardhat-web3');
 
 const providerUrl = process.env.MAINNET_PROVIDER_URL;
 const developmentMnemonic = process.env.DEV_ETH_MNEMONIC;
