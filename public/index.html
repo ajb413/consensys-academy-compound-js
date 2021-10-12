@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <title>Compound Interface</title>
+</head>
+<body>
+
+  <h1>Interest Rate App</h1>
+
+  <button class="enable-button" id="enable-button">Enable Ethereum</button>
+
+  <div class="asset-interface">
+    <div class="row1">
+      <h3>ETH</h3>
+    </div>
+    <div class="row2">
+      <label>
+        Compound Protocol ETH APY: <span id="eth-apy"></span>%
+      </label>
+    </div>
+    <div class="row3">
+      <input id="eth-supply" type="text" placeholder="ETH" />
+      <button id="eth-supply-button">Supply</button>
+    </div>
+    <div class="row4">
+      <input id="eth-redeem" type="text" placeholder="cETH" />
+      <button id="eth-redeem-button">Redeem</button>
+    </div>
+  </div>
+
+  <div class="asset-interface">
+    <div class="row1">
+      <h3>USDC</h3>
+    </div>
+    <div class="row2">
+      <label>
+        Compound Protocol USDC APY: <span id="usdc-apy"></span>%
+      </label>
+    </div>
+    <div class="row3">
+      <input id="usdc-supply" type="text" placeholder="USDC" />
+      <button id="usdc-supply-button">Supply</button>
+    </div>
+    <div class="row4">
+      <input id="usdc-redeem" type="text" placeholder="cUSDC" />
+      <button id="usdc-redeem-button">Redeem</button>
+    </div>
+  </div>
+
+</body>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@compound-finance/compound-js@0.2.5/dist/browser/compound.min.js"></script>
+<script type="text/javascript" src="./app.js"></script>
+
+</html>

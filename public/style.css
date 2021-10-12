@@ -1,0 +1,96 @@
+html,
+body {
+  font-family: Arial;
+  color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  background-color: #1a1a1a;
+}
+
+h1, .enable-button, .asset-interface {
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  box-shadow: 0px 2px 4px 1px #00000040;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.enable-button {
+  display: block;
+  padding: 15px 32px;
+  background-color: #037dd6;
+}
+
+.enable-button:hover {
+  background-color: #0494fb;
+}
+
+.asset-interface button {
+  width: 78px;
+  margin: 0px 2px;
+  padding: 8px;
+  background-color: #00D395;
+}
+
+.asset-interface button:hover {
+  background-color: #00ffb3;
+}
+
+.asset-interface [type=text] {
+  width: 53px;
+  padding: 6px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+  border: none;
+}
+
+.asset-interface {
+  width: 325px;
+  height: 210px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 20px auto 20px;
+  grid-template-rows: 20px 40px 30px 50px 50px 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #070A0E;
+  border: solid 1px #4d4d4d;
+  border-radius: 8px;
+}
+
+.asset-interface .row1 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.asset-interface .row2 {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.asset-interface .row3 {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
+}
+
+.asset-interface .row4 {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+}
